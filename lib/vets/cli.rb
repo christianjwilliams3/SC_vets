@@ -1,7 +1,14 @@
 class Vets::CLI
-  
-  def intro 
+
+  def intro
     puts "Welcome, Which hospitals interest you?"
-  end 
+    list_vets
+    get_user_input
+    validate(@input)
+    options
+  end
+    "Have a good day!"
+end
+
 
 end
