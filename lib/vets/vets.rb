@@ -1,7 +1,6 @@
-require "vets/version"
 
-class Vets
+class Vets::Vets
 
   attr_accessor :hospital_name, :location, :doctor
 
-end 
+end
