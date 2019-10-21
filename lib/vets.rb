@@ -1,6 +1,7 @@
 require "vets/version"
 
-module Vets
-  class Error < StandardError; end
-  # Your code goes here...
-end
+class Vets
+
+  attr_accessor :hospital_name, :location, :doctor
+
+end 
