@@ -7,7 +7,7 @@ class Vets::API
         },
       })
       vets = resp["businesses"]
-    #  binding.pry
+      binding.pry 
       Vets.new_from_collection(vets)
   end
 end

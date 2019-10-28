@@ -1,4 +1,5 @@
 source "https://rubygems.org"
 
 # Specify your gem's dependencies in vets.gemspec
-gemspec
+gem "httparty"
+gem "pry"

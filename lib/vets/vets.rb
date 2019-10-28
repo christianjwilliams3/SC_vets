@@ -1,12 +1,14 @@
 
 class Vets::Vets
 
-  attr_accessor :int_id, :hospital_name, :location, :rating,
+  attr_accessor :name, :location, :rating
   @@all = []
 
-  def initialize
-
-  end
+ def initialize(attrs)
+   @name = name
+   @location = location
+   @rating = rating
+ end
 
 
 end
