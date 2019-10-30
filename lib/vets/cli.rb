@@ -2,7 +2,7 @@ class Vets::CLI
 
   def intro
     puts "Welcome, Which hospitals interest you?"
-    Vets::API.get_vets
+    Vets::API.new
     list_vets
     user_input
     options
@@ -10,7 +10,7 @@ class Vets::CLI
   end
 
   def list_vets
-    
+
   end
 
   def user_input
