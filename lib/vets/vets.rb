@@ -1,5 +1,5 @@
 
-class Vets::Vet
+class Vets::Vets
 
   attr_accessor :name, :location, :rating
   @@all = []
