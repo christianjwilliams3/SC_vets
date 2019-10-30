@@ -8,7 +8,10 @@ class Vets::API
       })
       vets = resp["businesses"]
       vets.each do |vet|
-        binding.pry
+        name = vet["name"]
+        location = vet["location"]["address1"]
+        rating = vet["rating"]
+        Vet.new(name, location, rating)
       end
   end
 end

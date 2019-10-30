@@ -1,5 +1,5 @@
 
-class Vets::Vets
+class Vets::Vet
 
   attr_accessor :name, :location, :rating
   @@all = []
@@ -9,6 +9,12 @@ class Vets::Vets
    @location = location
    @rating = rating
  end
+
+ def new_vets
+   vets.collect.new { |vet| puts "name","location", "rating"}
+ end
+
+
 
 
 end

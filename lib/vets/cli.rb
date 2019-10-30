@@ -10,7 +10,7 @@ class Vets::CLI
   end
 
   def list_vets
-
+    
   end
 
   def user_input
