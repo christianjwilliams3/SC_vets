@@ -11,7 +11,7 @@ class Vets::API
         name = vet["name"]
         location = vet["location"]["address1"]
         rating = vet["rating"]
-        Vets.new(name, location, rating)
+        vets.new(name, location, rating)
       end
   end
 end
