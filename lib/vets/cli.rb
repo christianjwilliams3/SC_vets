@@ -11,6 +11,7 @@ class Vets::CLI
       user_choice = user_input #asked which one they want to see
       show_vet(user_choice.to_i) #show what they chose
       puts "Enter another a vet index or exit to Finish!"
+      #there is my break 
     goodbye
   end
 end
