@@ -9,11 +9,13 @@ class Vets::CLI
     list_vets #listed vets
     while user_choice != "exit" #verify not exit
       user_choice = user_input #asked which one they want to see
+    if user_choice.to_i >= 1 && user_choice.to_i <= Vets::Vets.all.length
+      #binding.pry
       show_vet(user_choice.to_i) #show what they chose
       puts "Enter another a vet index or exit to Finish!"
-      #there is my break 
-    goodbye
+    end
   end
+    goodbye
 end
 
   def show_vet(user_choice)
