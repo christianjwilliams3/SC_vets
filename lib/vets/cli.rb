@@ -10,7 +10,7 @@ class Vets::CLI
     while user_choice != "exit" #verify not exit
       user_choice = user_input #asked which one they want to see
       show_vet(user_choice.to_i) #show what they chose
-      puts "Enter another a vet index or exit to finish, push exit to quit"    
+      puts "Enter another a vet index or exit to Finish!"
     goodbye
   end
 
