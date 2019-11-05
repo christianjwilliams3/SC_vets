@@ -13,6 +13,7 @@ class Vets::CLI
       puts "Enter another a vet index or exit to Finish!"
     goodbye
   end
+end
 
   def show_vet(user_choice)
     vet = @all_vets[user_choice - 1] #Choice per user to access array of vets
