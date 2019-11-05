@@ -14,12 +14,9 @@ class Vets::Vets
  def self.all
    @@all
  end
- 
+
  def new_vets
    vets.collect.new { |vet| puts "name","location", "rating"}
  end
-
-
-
 
 end
