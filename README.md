@@ -1,6 +1,6 @@
 # Vets
 
-Welcome to my first gem! This gem is using yelp fusions api to receive information about the Name, Location, & Rating from yelp and will display it after your selection. If you wish to exit at anytime you can input bye.
+Welcome to my first gem! This gem is using yelp fusions api to receive information about the Name, Location, & Rating from yelp and will display it after your selection. Typing exit will remove you from the program.
 ## Installation
 
 Add this line to your application's Gemfile:
