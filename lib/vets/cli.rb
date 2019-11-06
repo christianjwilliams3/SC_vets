@@ -40,6 +40,6 @@ end
   end
 
   def goodbye
-      puts "Bye"
+      puts "Goodbye"
   end
 end

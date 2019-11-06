@@ -1,16 +1,11 @@
 # Vets
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/vets`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
+Welcome to my first gem! This gem is using yelp fusions api to receive information about the Name, Location, & Rating from yelp and will display it after your selection. If you wish to exit at anytime you can input bye.
 ## Installation
 
 Add this line to your application's Gemfile:
 
-```ruby
-gem 'vets'
-```
+
 
 And then execute:
 
