@@ -5,7 +5,9 @@ Welcome to my first gem! This gem is using yelp fusions api to receive informati
 
 Add this line to your application's Gemfile:
 
-
+```ruby
+gem 'vets'
+```
 
 And then execute:
 
